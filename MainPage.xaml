@@ -1,0 +1,371 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="IncomeDataStorage.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    
+    xmlns:local="clr-namespace:IncomeDataStorage.Presentation"
+    
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696" 
+    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">   
+
+    <!--LayoutRoot представляет корневую сетку, где размещается все содержимое страницы-->
+    <Grid x:Name="LayoutRoot" Background="Transparent" Margin="{Binding LayoutMargin}">
+        <!--Элемент управления Pivot--> 
+        <controls:Pivot Title="ДИСПЕТЧЕР (учет ХГВС)" Tap="Pivot_Tap" >
+            <!--Первый элемент Pivot-->
+            <controls:PivotItem Header="добавить">
+                <Grid x:Name="KeyDataEnterArea" DataContext="KeyDataEnterField" Background="Transparent">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/> 
+                    </Grid.RowDefinitions>
+                    
+                    <TextBlock Grid.Row="0" Text="Введите:" FontSize="26" Margin="15,0,0,0" />
+                    <Grid x:Name="KeyData" Grid.Row="1" Background="Transparent">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="tBx_KeyData" FontSize="36"
+                             Text="{Binding SelectedKeyText, Mode=TwoWay}"
+                             IsEnabled="{Binding EnterFieldEnable}"
+                             LostFocus="tBx_KeyData_LostFocus" 
+                             TextChanged="tBx_KeyData_TextChanged" 
+                             GotFocus="tBx_KeyData_GotFocus"
+                             Width="{Binding ElementName=KeyDataEnterArea, Path=Width}" 
+                             Tap="tBl_SelNumbFloor_Tap"     />
+                        <TextBlock x:Name="tBl_SelNumbFloor" Margin="0,17,0,17" 
+                               Text="НОМЕР КВАРТИРЫ" 
+                               Visibility="{Binding EnterMaskVisible}" 
+                               Foreground="Indigo" 
+                               HorizontalAlignment="Left" VerticalAlignment="Center" 
+                               Height="53" Width="231" TextAlignment="Left" 
+                               Padding="21,12,0,0" 
+                               IsHitTestVisible="False" />
+                       <!-- <TextBlock x:Name="tBl_SelName"
+                                   Text="ФАМИЛИЮ" Visibility="{Binding EnterMaskVisible}"
+                                   Foreground="MediumSlateBlue" Margin="0,17,16,14" 
+                                   HorizontalAlignment="Right" VerticalAlignment="Center" 
+                                   Height="53" Width="181" Padding="0,12,0,0" Tap="tBl_SelName_Tap" />
+                        <TextBlock Text="или" Visibility="{Binding EnterMaskVisible}" 
+                                   Foreground="Gray" HorizontalAlignment="Center" 
+                                   VerticalAlignment="Center" />
+                        -->
+                        <Button x:Name="btn_AddKeyData" 
+                            Content="{Binding AddButtonSymb}" 
+                            HorizontalAlignment="Left" 
+                            Margin="10,7,0,0" 
+                            VerticalAlignment="Top" Width="80" Height="80"  
+                            Grid.Column="1"
+                            FontWeight="ExtraBold" 
+                            Visibility="{Binding AddNewKeyButtVisible}" FontFamily="Tahoma" FontSize="40" Padding="0,-8,0,0" 
+                            BorderBrush="{Binding AddButtonColor}"
+                            Foreground="{Binding AddButtonColor}" Tap="btn_AddKeyData_Tap" />
+                        <Grid x:Name="CaseOfSelectArea" Grid.Column="0" Visibility="{Binding Path=CoSVisible}" 
+                          Background="SteelBlue" Margin="12,80,12,0" Height="Auto" Width="{Binding ElementName=tBx_KeyData, Path=ActualWidth}">
+                            <!-- <ScrollViewer VerticalScrollBarVisibility="Auto"> -->
+                            <ListBox x:Name="lBx_CaseOfSelect" ScrollViewer.VerticalScrollBarVisibility="Auto" Margin="0,0,-12,0" ItemsSource="{Binding CaseOfSelectItems}" MaxHeight="420">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Margin="5,0,0,17" Width="Auto">
+                                            <!-- <Canvas Width="400" Height="50" Background="#FF702222"> -->
+                                            <TextBlock Text="{Binding SelectLine}" FontSize="26" Tap="TextBlock_Tap" Width="470" />
+                                            <!--</Canvas> -->
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                            <!-- </ScrollViewer> -->
+                        </Grid>
+                    </Grid>                
+                   
+                    <!-- <TextBlock x:Name="tBl_KeyData" Grid.Row="2" /> -->
+                    
+                   <!-- Область ввода показаний учетов -->
+                    <Grid x:Name="CounterData" Grid.Row="3" Background="Transparent">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        
+                       <!-- Область ввода показаний счетчиков горячей воды -->
+                            <Grid x:Name="HotWaterCountersArea" Background="Transparent" HorizontalAlignment="Stretch" Width="Auto"
+                                  Grid.Row="0" Grid.Column="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="{Binding AttData.SecondaryHotWaterColumnWidth, Mode=OneWay}" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Row="0" Grid.Column="0" Height="35" 
+                                           HorizontalAlignment="Stretch"
+                                           Margin="15,10,0,3" Name="textBlock2"
+                                           VerticalAlignment="Top" Foreground="{Binding AttData.CaptionColor}"
+                                           Text="{Binding AttData.HotWaterMainCaption}" FontSize="26" />
+                                <TextBox HorizontalAlignment="Stretch"
+                                         x:Name="tBx_HotWaterMainEnterField" FontSize="32" 
+                                         Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" 
+                                         IsEnabled="{Binding AttData.IsActive}"
+                                         Text="{Binding AttData.HotWaterMain, Mode=TwoWay}"
+                                         InputScope="Number" Height="Auto" GotFocus="tBx_ChangeFocus" LostFocus="tBx_ChangeFocus" />
+                                
+                                <TextBlock Height="35" VerticalAlignment="Top" HorizontalAlignment="Left"
+                                           Margin="15,10,0,3" Name="textSecondaryHotWater" 
+                                           Grid.Row="0" Grid.Column="1"
+                                           Visibility="{Binding AttData.SecondaryHotWaterFieldVisible}"
+                                           Text="ГBC(ванная):" FontSize="26" />
+                                <TextBox HorizontalAlignment="Stretch"
+                                         Grid.Row="1" Grid.Column="1"
+                                         x:Name="tBx_HotWaterSecondaryEnterField" FontSize="32" 
+                                         VerticalAlignment="Top" IsEnabled="{Binding AttData.IsActive}"
+                                         InputScope="Number" Height="Auto" 
+                                         Text="{Binding AttData.HotWaterSecondary, Mode=TwoWay}"
+                                         Visibility="{Binding ElementName=textSecondaryHotWater, Path=Visibility}" LostFocus="tBx_ChangeFocus" GotFocus="tBx_ChangeFocus" />
+                            </Grid>
+
+                            <!-- Кнопка-переключатель сдвоенных/одинарных учетов -->
+                            <Button x:Name="btn_SecondaryHotWater" 
+                                Content="{Binding AttData.SecondaryHotWaterButtText}" 
+                                HorizontalAlignment="Left" 
+                                Margin="10,0,0,0" 
+                                VerticalAlignment="Bottom" Width="80" Height="80"  
+                                Grid.Row="0" Grid.Column="3"
+                                FontWeight="ExtraBold" 
+                                IsEnabled="{Binding AttData.IsActive}"
+                                FontFamily="Tahoma" FontSize="36" Padding="0,-8,0,0" 
+                                BorderBrush="{Binding AttData.SecondaryHotWaterButtColor}" 
+                                Foreground="{Binding AttData.SecondaryHotWaterButtColor}" 
+                                Visibility="{Binding AttData.SecondaryHotWaterButtVisible}" 
+                                Click="btn_SecondaryHotWater_Click" />
+
+                            <!-- Область ввода показаний счетчиков холодной воды  -->
+                            <Grid x:Name="ColdWaterCountersArea" Background="Transparent" HorizontalAlignment="Stretch" Width="Auto"
+                                      Grid.Row="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="{Binding AttData.SecondaryHotWaterColumnWidth, Mode=OneWay}" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Grid.Row="0" Grid.Column="0" Height="35" 
+                                           HorizontalAlignment="Stretch" Margin="15,10,0,3" 
+                                           Name="textBlock3" VerticalAlignment="Top" 
+                                           Foreground="{Binding AttData.CaptionColor}"
+                                           Text="{Binding AttData.ColdWaterMainCaption}"
+                                           FontSize="26"/>
+                                <TextBox Height="Auto" HorizontalAlignment="Stretch" 
+                                         x:Name="tBx_ColdWaterMainEnterField" FontSize="32"
+                                         VerticalAlignment="Top" Grid.Row="2" Grid.Column="0"
+                                         InputScope="Number" IsEnabled="{Binding AttData.IsActive}" 
+                                         Text="{Binding AttData.ColdWaterMain, Mode=TwoWay}" GotFocus="tBx_ChangeFocus" LostFocus="tBx_ChangeFocus" />
+                                <TextBlock Grid.Row="0" Grid.Column="1" Height="30" HorizontalAlignment="Stretch"
+                                           x:Name="tBl_SecondaryColdWaterText" VerticalAlignment="Top" 
+                                           Text="ХBC(ванная):" FontSize="26" Margin="15,10,0,3" 
+                                           Visibility="{Binding AttData.SecondaryColdWaterFieldVisible}" />
+                                <TextBox Height="Auto" HorizontalAlignment="Stretch"
+                                         Grid.Row="1" Grid.Column="1"
+                                         x:Name="tBx_ColdWaterSecondaryEnterField" FontSize="32"
+                                         VerticalAlignment="Top"
+                                         InputScope="Number" IsEnabled="{Binding AttData.IsActive}" 
+                                         Text="{Binding AttData.ColdWaterSecondary, Mode=TwoWay}"
+                                         Visibility="{Binding ElementName=tBl_SecondaryColdWaterText, Path=Visibility}" LostFocus="tBx_ChangeFocus" GotFocus="tBx_ChangeFocus" />
+                                
+                            <Button Content="Сохранить" Grid.Row="1" Height="94" 
+                                    HorizontalAlignment="Left" Margin="104,82,0,0" 
+                                    x:Name="btn_Save" VerticalAlignment="Top" 
+                                    Width="260" FontSize="36" BorderBrush="YellowGreen" 
+                                    Foreground="YellowGreen" 
+                                    Visibility="{Binding AttData.SaveButtVisible}" 
+                                    Click="btn_Save_Click" Grid.ColumnSpan="2" />
+                                
+                        </Grid>
+                    </Grid> <!-- Конец области ввода показаний учетов -->
+                    
+                          <!-- <TextBlock Grid.Row="3" Height="30" HorizontalAlignment="Left"
+                               Margin="15,240,0,0" Name="textBlock4"
+                               VerticalAlignment="Top" Foreground="{Binding AttData.CaptionColor}"
+                               Text="Электричество:" FontSize="26"/>
+                    <TextBox Height="Auto" HorizontalAlignment="Stretch" Margin="0,275,0,0" 
+                             x:Name="tBx_ElectricityEnterField" FontSize="32"
+                             VerticalAlignment="Top" Grid.Row="3"
+                             InputScope="Number" IsEnabled="{Binding AttData.IsActive}" Text="{Binding AttData.Electricity, Mode=TwoWay}"/>
+                    -->
+                </Grid>
+                
+                <!--Двухстрочный список с разбивкой текста на строки
+                <ListBox x:Name="FirstListBox" Margin="0,0,-12,0" ItemsSource="{Binding Items}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                          <StackPanel Margin="0,0,0,17" Width="432" Height="78">
+                              <TextBlock Text="{Binding LineOne}" TextWrapping="Wrap" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
+                              <TextBlock Text="{Binding LineTwo}" TextWrapping="Wrap" Margin="12,-6,12,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
+                          </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox> -->
+            </controls:PivotItem>
+ 
+            <!--Второй элемент Pivot-->
+            <controls:PivotItem Header="журнал">
+              <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                  
+                    <Grid x:Name="JournalHeader" Grid.Row="0" ShowGridLines="True">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition x:Name="FloorNoCol" Width="70" />
+                            <ColumnDefinition x:Name="DateCol" Width="*" />
+                            <ColumnDefinition x:Name="AccCol" Width="75" />
+                            <ColumnDefinition x:Name="CurrCountCol" Width="95" />
+                            <ColumnDefinition x:Name="PreCountCol" Width="95" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Text="N кв:" Grid.Column="0" FontSize="26" Foreground="LightGray" HorizontalAlignment="Center" Tap="TextBlock_FloorNo_Tap" />
+                        <TextBlock Text="Дата:" Grid.Column="1" FontSize="26" Foreground="LightGray" HorizontalAlignment="Center" Tap="TextBlock_Date_Tap"/>
+                        <TextBlock Text="Учет:" Grid.Column="2" FontSize="26" Foreground="LightGray" HorizontalAlignment="Center" />
+                        <TextBlock Text="Тек.:" Grid.Column="3" FontSize="26" Foreground="LightGray" HorizontalAlignment="Center" />
+                        <TextBlock Text="Пред.:" Grid.Column="4" FontSize="26" Foreground="LightGray" HorizontalAlignment="Center" />
+                </Grid>
+                    <Grid x:Name="JournalArea" Grid.Row="1">
+                    <!--Список, представляющий собой журнал занесенных в БД данных-->
+                    <ListBox x:Name="JournalListBox" Margin="0,0,0,0" 
+                             ItemsSource="{Binding Items}" Height="500">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                    <StackPanel Margin="0,0,0,0" Width="Auto" 
+                                            IsHitTestVisible="True">
+                                        <Border BorderThickness="0" BorderBrush="Aqua" 
+                                                Hold="Border_Hold">
+                                        <Grid x:Name="ListElement" 
+                                              Background="{Binding ElemColor}" 
+                                              ShowGridLines="True" 
+                                              IsHitTestVisible="True">
+                                             
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="70" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="Auto" />                                                
+                                            </Grid.ColumnDefinitions>
+
+                                            <TextBlock Text="{Binding FloorNumber}" 
+                                                       Grid.Row="0" Grid.Column="0"
+                                                       FontSize="24" Padding="5,0,0,0" />
+
+                                            <Grid Grid.Row="0" Grid.Column="1" Background="Transparent">
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+
+                                                <TextBlock Text="{Binding IncomeDate}" 
+                                                           Grid.Row="0" 
+                                                           FontSize="24" Padding="5,0,0,0"/>
+                                                    <StackPanel Orientation="Horizontal" Grid.Row="1">
+                                                        <TextBlock Text="{Binding IncomeTime}" 
+                                                           FontSize="24" Padding="5,0,0,0"/>
+                                                        <TextBlock Text="*" Foreground="Yellow"
+                                                                   FontSize="24" 
+                                                                   Visibility="{Binding RedactedVisible}" />
+                                                    </StackPanel>
+                                                </Grid>
+                                            
+                                            <Grid x:Name="CounterArea"
+                                                  IsHitTestVisible="False"
+                                                  Grid.Column="2" Width="265" Height="Auto"
+                                                  Background="Transparent">
+                                                <ListBox x:Name="CounterListBox" Margin="0,0,0,0" 
+                                                           ItemsSource="{Binding CounterItems}" Height="Auto">                                                    
+                                                    <ListBox.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <Grid x:Name="CounterAreaSegment" Background="Transparent"
+                                                                   ShowGridLines="True">
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="75" />
+                                                                    <ColumnDefinition Width="190" />
+                                                                </Grid.ColumnDefinitions>
+                                                                <TextBlock Text="{Binding CounterName}" 
+                                                                           Grid.Column="0"
+                                                                           FontSize="24" Padding="10,0,0,0" VerticalAlignment="Center" />
+                                                                <Grid Grid.Column="1">
+                                                                    <Grid.RowDefinitions>
+                                                                        <RowDefinition Height="Auto" />
+                                                                        <RowDefinition Height="Auto" />
+                                                                    </Grid.RowDefinitions>
+                                                                    <Grid Grid.Row="0" Background="Transparent"
+                                                                          ShowGridLines="True">
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="95" />
+                                                                            <ColumnDefinition Width="95" />
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <TextBlock Text="{Binding CurrData}" 
+                                                                                   Grid.Column="0"
+                                                                                   FontSize="24" Padding="10,0,0,0"/>
+                                                                        <TextBlock Text="{Binding PreData}" 
+                                                                                   Grid.Column="1"
+                                                                                   FontSize="24" Padding="10,0,0,0"/>
+                                                                    </Grid>
+                                                                    <TextBlock Text="{Binding Difference}" 
+                                                                                   Grid.Row="1" Foreground="Gray"
+                                                                                   FontSize="24" Padding="10,0,0,0" TextAlignment="Center" />
+                                                                </Grid>
+                                                            </Grid>
+                                                        </DataTemplate>
+                                                    </ListBox.ItemTemplate>
+                                                </ListBox>
+                                             </Grid>
+                                        </Grid>
+                                        </Border>
+                                    </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate> 
+                    </ListBox>   
+                </Grid>
+              </Grid>
+
+            </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+ 
+    <!--Пример кода, иллюстрирующий использование ApplicationBar -->
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar x:Name="AppBar" IsVisible="True" IsMenuEnabled="True">
+            <!-- <shell:ApplicationBarIconButton
+                x:Name="AppBarBtn_Filtr"
+                IconUri="/Images/appbar.Filter.png" 
+                Text="Фильтр" IsEnabled="True" />
+             <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Кнопка 2"/> --> 
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="Импорт данных" Click="ApplicationBarMenuItem_Click"/>
+                <shell:ApplicationBarMenuItem Text="Фильтры журнала" Click="ApplicationBarMenu_JournalFilter_Click" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar> 
+
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,141 @@
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ApplicationIcon.png
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Background.png
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage.pdb
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\AppManifest.xaml
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage.xap
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.xml
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\App.g.i.cs
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\MainPage.g.i.cs
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.g.resources
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.pdb
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\XapCacheFile.xml
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Live.Controls.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Live.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\cs\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\da\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\de\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\el\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\en\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\en-gb\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\es\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\fi\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\fr\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\hu\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\id\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\it\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ja\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ko\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ms\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\nb-no\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\nl\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pl\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pt-br\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pt-pt\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ru\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\sv\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\zh-cn\Microsoft.Live.Controls.resources.dll
+c:\users\админ\documents\visual studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\zh-tw\Microsoft.Live.Controls.resources.dll
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\KeyDataCorrectionPage.g.i.cs
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\ImportDataPage.g.i.cs
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\ExcelFileParsePage.g.i.cs
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.csprojResolveAssemblyReference.cache
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\SharpCompress.WP7.dll
+C:\Users\админ\Documents\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\AttDataCorrectionPage.g.i.cs
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ApplicationIcon.png
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Background.png
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage.pdb
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\AppManifest.xaml
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\SharpCompress.WP7.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\cs\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\da\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\de\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\el\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\en\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\en-gb\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\es\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\fi\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\fr\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\hu\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\id\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\it\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ja\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ko\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ms\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\nb-no\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\nl\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pl\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pt-br\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pt-pt\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ru\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\sv\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\zh-cn\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\zh-tw\Microsoft.Live.Controls.resources.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.csprojResolveAssemblyReference.cache
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\App.g.cs
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\AttDataCorrectionPage.g.cs
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\ExcelFileParsePage.g.cs
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\KeyDataCorrectionPage.g.cs
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\ImportDataPage.g.cs
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\MainPage.g.cs
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.g.resources
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.dll
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.pdb
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\XapCacheFile.xml
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ApplicationIcon.png
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Background.png
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage.pdb
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\AppManifest.xaml
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage.xap
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\SharpCompress.WP7.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.xml
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\cs\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\da\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\de\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\el\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\en\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\en-gb\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\es\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\fi\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\fr\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\hu\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\id\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\it\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ja\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ko\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ms\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\nb-no\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\nl\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pl\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pt-br\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\pt-pt\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\ru\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\sv\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\zh-cn\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\zh-tw\Microsoft.Live.Controls.resources.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.csprojResolveAssemblyReference.cache
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\App.g.cs
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\AttDataCorrectionPage.g.cs
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\ExcelFileParsePage.g.cs
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\KeyDataCorrectionPage.g.cs
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\ImportDataPage.g.cs
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\MainPage.g.cs
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.g.resources
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.dll
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\IncomeDataStorage.pdb
+E:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\obj\Debug\XapCacheFile.xml
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\Properties\WMAppManifest.xml
+D:\Archieve\VS in MyDoc\Visual Studio 2010\Projects\IncomeDataStorage\IncomeDataStorage\Bin\Debug\IncomeDataStorage_Debug_AnyCPU.xap

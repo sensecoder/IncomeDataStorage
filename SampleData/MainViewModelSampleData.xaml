@@ -1,0 +1,24 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:IncomeDataStorage" 
+    SampleProperty="Пример значения свойства текста">
+    
+    <local:MainViewModel.Items>
+        <local:ItemViewModel FloorNumber="10 кв." OwnerName = "Петрученко Федор Кузьмич"  
+                             IncomeDate = "10.02.2012       " IncomeTime = "10:11" >
+            <local:ItemViewModel.CounterItems>
+                <local:ItemCounterModel CounterName="ГВ(к):" CurrData="152" PreData="120" Difference="32"/>
+                <local:ItemCounterModel CounterName="ГВ(в):" CurrData="152" PreData="120" Difference="32"/>
+                <local:ItemCounterModel CounterName="ХВ(к):" CurrData="152" PreData="120" Difference="32"/>
+                <local:ItemCounterModel CounterName="ХВ(в):" CurrData="152" PreData="120" Difference="Разница: 32"/>
+            </local:ItemViewModel.CounterItems>
+        </local:ItemViewModel>
+        <local:ItemViewModel FloorNumber="вторая схема" OwnerName="Dictumst eleifend facilisi faucibus" IncomeDate="Pharetra placerat pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent"/>
+        <local:ItemViewModel FloorNumber="третья схема" OwnerName="Habitant inceptos interdum lobortis" IncomeDate="Accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat"/>
+        <local:ItemViewModel FloorNumber="четвертая схема" OwnerName="Nascetur pharetra placerat pulvinar" IncomeDate="Pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum"/>
+        <local:ItemViewModel FloorNumber="пятая схема" OwnerName="Sagittis senectus sociosqu suscipit" IncomeDate="Dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis"/>
+        <local:ItemViewModel FloorNumber="шестая схема" OwnerName="Torquent ultrices vehicula volutpat" IncomeDate="Senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend"/>
+    </local:MainViewModel.Items>
+    
+</local:MainViewModel>
